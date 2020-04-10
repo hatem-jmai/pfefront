@@ -8,6 +8,9 @@ import { DefaultModule } from './layouts/default/default.module';
 import { LoginComponent } from './shared/components/login/login.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { NotemissionComponent } from './modules/notemission/notemission.component';
+import { FicheRenseignementComponent } from './modules/fiche-renseignement/fiche-renseignement.component';
+import { BorderouComponent } from './modules/borderou/borderou.component';
+import { RappelRapportComponent } from './modules/rappel-rapport/rappel-rapport.component';
 
 
 @NgModule({
@@ -15,6 +18,9 @@ import { NotemissionComponent } from './modules/notemission/notemission.componen
     AppComponent,
     LoginComponent,
     NotemissionComponent,
+    FicheRenseignementComponent,
+    BorderouComponent,
+    RappelRapportComponent,
   ],
   imports: [
     BrowserModule,

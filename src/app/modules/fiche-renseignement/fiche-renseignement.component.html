@@ -1,0 +1,135 @@
+<div class="card m-3">
+    <img src="./assets/img/logo.jpg" class="image" >
+    
+    <div class="card-body">
+        
+      <form >
+             <div class="form-row" class="titre">
+                <h1>بطاقة إرشادات حول مأمورية بالخارج </h1>
+             </div>
+
+                <div class="form-row">
+                  <div class="col">
+                  </div>
+
+                  <div class="col" class="sujet">
+                    <h4> الوزارة / المؤسسة أو المنشأة العمومية .I </h4>
+                  </div>
+                </div>
+
+                <table class="table table-bordered">
+                    <tr>
+                      <h4 class="titre">   المعهد الوطني للإحصاء   </h4>
+                  </tr>
+                </table>
+
+                <div class="form-row">
+                    <div class="col">
+                </div>
+                <div class="col" class="sujet">
+                      <h4> معطيات حول المكلف بمأمورية بالخارج .II  </h4>
+                  </div>
+
+                 
+                  <table class="table table-bordered" >
+                    <tr> 
+                      <td> <input type="text" class="form-control" placeholder="................"
+                        lang="ar" dir="rtl" > </td>
+                       <h4 class="sujet">    : الإسم و اللقب   </h4>
+                  </tr>
+                  <tr>
+                    <td> <input type="text" class="form-control" placeholder="................"
+                      lang="ar" dir="rtl" > </td>
+                    <h4 class="sujet"> :الرتبة / الخطة الوظيفية</h4>
+                  </tr>
+                </table>
+
+              </div>
+                
+                <div class="col" class="sujet">
+                  <h4>  معطيات عامة حول المأموية .III  </h4>
+              </div>
+               
+
+
+                <table   class="table table-bordered">
+                    <tr> 
+                      <td>
+                     <label class="label"> (أيام)</label>
+                        <input type="number" class="number">  
+                      </td>
+                      <td> <input type="text" class="c"
+                        lang="ar" dir="rtl" > </td>
+                       
+                       <h4 class="sujet" >   : الوجهة المقصودة والمدة   </h4>
+                  </tr>
+                 <tr>
+                   <td></td>
+                   <td></td>
+                   <td>
+                   <h4 class="sujet" > 
+                     :هل يتحمل البلد أو الهيكل المقصود
+                   </h4>
+                  </td>
+                 </tr>
+
+                 <tr>   
+                  <td>  <input type="checkbox" class="check">  لا</td>
+                  <td>  <input type="checkbox" class="check"> نعم</td>
+                 <td><h4 class="sujet">  مصاريف النقل </h4> 
+                 </td> 
+                </tr>
+
+                <tr>
+                  <td>  <input type="checkbox" class="check">  لا</td>
+                  <td>  <input type="checkbox" class="check"> نعم</td>
+                 <td> <h4 class="sujet" >      مصاريف الإقامة  </h4> 
+                 </td> 
+                </tr>
+              </table>
+
+              <table class="table table-bordered">
+                <tr>
+                  
+                  <td> <input  type="text" class="d"  lang="ar" dir="rtl" ></td>
+                
+                  <h4  >بيان فحوى المصاريف الأخرى والجهة المتحملة لها </h4>
+                  
+                </tr>
+              </table>
+             
+
+              <div class="col" class="sujet">
+                <h4>  معطيات خصوصية حول المأمورية  .IV   </h4>
+            </div>
+            <div class="col"  class="sujet" >
+             <input class="tabrir" type="text" lang="ar" dir="rtl" > 
+            </div>
+
+            
+              
+            <div class="note">
+            <label >
+  تعمر هذه البطاقة بكامل الدقة وجوبا وترفق وجوبا لإذن المأمورية علما وأن نقص تعميرها يترتب عنه عدم الإنجاز</label>
+            
+  <label> (1)</label> 
+
+  <label>
+      يتم إرجاع مصاريف المأمورية في صورة ما إذا اتضح تحملها من قبل البلد المقصود بصفة غير منتظرة
+  </label>
+           <label>(2)</label>
+          </div>
+          
+           <div class="text-center">
+            <button class="btn btn-primary mr-1">telecharger PDf</button>
+            <a class="btn btn-primary mr-1" [routerLink]="['/dashboard/rappel-rapport']" (click)="suivant()">Suivant</a>
+            <button class="btn btn-secondary" type="reset" (click)="onReset()">Cancel</button>
+          
+        </div>
+
+                
+                </form>
+
+
+        </div>
+</div>
